@@ -156,14 +156,52 @@ right:9px;
 
 .h{
 position: absolute;
-top: 240px;
+top:60px;
 right: 15px;
 font-size:25px;
 
 }
 .v{
   position: absolute;
-  top:275px;
+  top:90px;
   right: 13px;
   color: #5c6bc0;
+}
+.q{
+  position: absolute;
+  top:113px;
+  white-space: ;
+  right: 5px;
+  direction: rtl;
+  color: #6c757d;
+}
+.a {
+  display: inline-flex;
+  align-items: center;
+ 
+  padding:;
+   
+  color:#6c757d;
+  text-decoration: none;
+  border-radius: 50%;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  position: absolute;
+  top:260px;
+  right: 10px;
+}
+
+.a:hover {
+  background-color: #5e5e613b;
+}
+
+.a:active {
+  transform: scale(0.98);
+}
+
+/* حجم أيقونة البريد */
+.a i {
+  font-size:23px;
 }
