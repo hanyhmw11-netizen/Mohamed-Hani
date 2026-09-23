@@ -1,0 +1,89 @@
+/* إعدادات عامة */
+
+@media (max-width:1000px){
+body {
+  background-color: #f4f5f7;
+  font-family: system-ui, -apple-system, sans-serif;
+    margin: 0;
+}
+
+/* شريط التنقل الرئيسي */
+.navbar {
+  
+ 
+  width: 480px;
+      display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+
+
+
+
+
+  /* تحديث كود .navbar ليصبح ثابتاً */
+
+  position: fixed;   /* يجعل القائمة ثابتة */
+  bottom: 20px;      /* تثبيتها أسفل الشاشة بمقدار 20px */
+  left: 50%;
+  transform: translateX(-50%); /* لتوسيط القائمة بالكامل */
+  z-index: 1000;     /* يضمن ظهور القائمة فوق جميع عناصر الصفحة */
+  background-color: #c0b7b767;
+  border-radius: 25px;
+  padding-top: none;
+}
+  /* التنسيقات السابقة */
+  /*
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 35px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 6px;
+}
+
+
+/* عناصر القائمة */
+.nav-item {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  text-decoration: none;
+  color: #6c757d; /* لون الأيقونات والنصوص الغير مفعّلة */
+  gap: 1px;
+  font-size:8px;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+
+
+}
+
+/* حجم وحجم الأيقونات */
+.nav-item  i{
+  font-size: 2200px;
+ 
+}
+a i{
+  font-size: 5px;
+}
+
+/* العنصر النشط / المفعّل (مثل الرئيسية في الصورة) */
+.nav-item.active {
+  background-color: #f0f2f9; /* خلفية خفيفة ملونة للعنصر النشط */
+  color: #5c6bc0; /* لون أزرق/بنفسجي ملفت */
+  border-radius: 100px;
+}
+
+/* تأثير عند تحريك الماوس فوق العناصر */
+.nav-item:hover:not(.active) {
+  background-color: #716f7d97;
+  color: #000000;
+  border-radius: 150px;
+}
+span{
+  font-size:15px;
+;
+}
+}
